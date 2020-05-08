@@ -54,7 +54,7 @@ function AdminIndex(props){
     
   }
 
-  // 跳转到大胖逼逼叨的页面
+  // 跳转到VLOG的页面
   const handleBBD = e=>{
     props.history.push('/index/bbd')
 
@@ -87,7 +87,7 @@ function AdminIndex(props){
             </SubMenu>
             <Menu.Item key="2" onClick={handleBBD}>
               <Icon type="file" />
-              <span>大胖逼逼叨</span>
+              <span>VLOG</span>
             </Menu.Item>
             
             <Menu.Item key="9">

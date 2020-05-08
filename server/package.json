@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "service",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -8,6 +8,9 @@
   },
   "dependencies": {
     "egg": "^2.15.1",
+    "egg-cors": "^2.2.0",
+    "egg-mysql": "^3.0.0",
+    "egg-origin": "^1.0.3",
     "egg-scripts": "^2.11.0"
   },
   "devDependencies": {
@@ -23,8 +26,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-server",
-    "stop": "egg-scripts stop --title=egg-server-server",
+    "start": "egg-scripts start --daemon --title=egg-server-service",
+    "stop": "egg-scripts stop --title=egg-server-service",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
@@ -41,6 +44,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "zhonghong",
+  "author": "",
   "license": "MIT"
 }
